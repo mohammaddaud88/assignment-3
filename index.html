@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Daud</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Basic styling */
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Header styling */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Profile image and intro */
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        /* Sections styling */
+        section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            display: inline-block;
+        }
+
+        /* Skills */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .skills-list li {
+            background: #333;
+            color: #fff;
+            margin: 5px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        /* Projects */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .project-item {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Contact */
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .contact a:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Daud's Portfolio</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Introduction Section -->
+        <section class="intro">
+            <img src="./my photo.jpg" alt="Profile Picture" class="profile-img">
+            <h2>Hi, I'm Daud</h2>
+            <p>I'm a MERN stack developer and first-year MCA student passionate about building web applications and learning new technologies.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects">
+                <div class="project-item">
+                    <h3>MAXWHEEL</h3>
+                    <p>A car information website providing details about various car models, specifications, and user accounts.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Leave Management System</h3>
+                    <p>A web application for students to apply for leave in college, including approval and email notifications.</p>
+                </div>
+                <div class="project-item">
+                    <h3>YouTube Clone</h3>
+                    <p>A React-based clone of YouTube with basic video browsing and UI similar to the original platform.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p>If you'd like to reach out, feel free to email me or connect with me on LinkedIn.</p>
+            <a href="mailto:your-email@example.com">Email Me</a>
+        </section>
+    </div>
+
+</body>
+</html>
